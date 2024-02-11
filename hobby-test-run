@@ -1,0 +1,1745 @@
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ sudo apt install libnetcdf-c++4-dev libnetcdf-c++4-doc
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  chromium-codecs-ffmpeg-extra gstreamer1.0-vaapi libflashrom1 libftdi1-2 libgstreamer-plugins-bad1.0-0 libllvm13 libva-wayland2
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  hdf5-helpers libaec-dev libaec0 libcurl4-openssl-dev libhdf5-103-1 libhdf5-cpp-103-1 libhdf5-dev libhdf5-fortran-102 libhdf5-hl-100 libhdf5-hl-cpp-100 libhdf5-hl-fortran-100
+  libjpeg-dev libjpeg-turbo8-dev libjpeg8-dev libnetcdf-c++4-1 libnetcdf-dev libnetcdf19 libssl-dev libsz2 pkg-config
+Suggested packages:
+  libcurl4-doc libidn11-dev libkrb5-dev libldap2-dev librtmp-dev libssh2-1-dev libhdf5-doc netcdf-bin netcdf-doc libssl-doc
+The following NEW packages will be installed
+  hdf5-helpers libaec-dev libaec0 libcurl4-openssl-dev libhdf5-103-1 libhdf5-cpp-103-1 libhdf5-dev libhdf5-fortran-102 libhdf5-hl-100 libhdf5-hl-cpp-100 libhdf5-hl-fortran-100
+  libjpeg-dev libjpeg-turbo8-dev libjpeg8-dev libnetcdf-c++4-1 libnetcdf-c++4-dev libnetcdf-c++4-doc libnetcdf-dev libnetcdf19 libssl-dev libsz2 pkg-config
+0 to upgrade, 22 to newly install, 0 to remove and 4 not to upgrade.
+Need to get 9,063 kB of archives.
+After this operation, 39.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 hdf5-helpers amd64 1.10.7+repack-4ubuntu2 [14.2 kB]
+Get:2 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libaec0 amd64 1.0.6-1 [20.1 kB]
+Get:3 http://au.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4-openssl-dev amd64 7.81.0-1ubuntu1.15 [386 kB]
+Get:4 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libsz2 amd64 1.0.6-1 [5,354 B]
+Get:5 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libhdf5-103-1 amd64 1.10.7+repack-4ubuntu2 [1,295 kB]
+Get:6 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libhdf5-cpp-103-1 amd64 1.10.7+repack-4ubuntu2 [129 kB]
+Get:7 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libhdf5-fortran-102 amd64 1.10.7+repack-4ubuntu2 [90.9 kB]
+Get:8 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libhdf5-hl-100 amd64 1.10.7+repack-4ubuntu2 [59.1 kB]
+Get:9 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libhdf5-hl-fortran-100 amd64 1.10.7+repack-4ubuntu2 [33.8 kB]
+Get:10 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libhdf5-hl-cpp-100 amd64 1.10.7+repack-4ubuntu2 [10.6 kB]
+Get:11 http://au.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8-dev amd64 2.1.2-0ubuntu1 [257 kB]
+Get:12 http://au.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8-dev amd64 8c-2ubuntu10 [1,476 B]
+Get:13 http://au.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-dev amd64 8c-2ubuntu10 [1,472 B]
+Get:14 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libaec-dev amd64 1.0.6-1 [17.9 kB]
+Get:15 http://au.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssl-dev amd64 3.0.2-0ubuntu1.14 [2,374 kB]
+Get:16 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libhdf5-dev amd64 1.10.7+repack-4ubuntu2 [2,684 kB]
+Get:17 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libnetcdf19 amd64 1:4.8.1-1 [456 kB]
+Get:18 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libnetcdf-c++4-1 amd64 4.3.1-3build1 [79.7 kB]
+Get:19 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libnetcdf-dev amd64 1:4.8.1-1 [50.3 kB]
+Get:20 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libnetcdf-c++4-dev amd64 4.3.1-3build1 [110 kB]
+Get:21 http://au.archive.ubuntu.com/ubuntu jammy/universe amd64 libnetcdf-c++4-doc all 4.3.1-3build1 [941 kB]
+Get:22 http://au.archive.ubuntu.com/ubuntu jammy/main amd64 pkg-config amd64 0.29.2-1ubuntu3 [48.2 kB]
+Fetched 9,063 kB in 0s (20.5 MB/s)     
+Selecting previously unselected package hdf5-helpers.
+(Reading database ... 263040 files and directories currently installed.)
+Preparing to unpack .../00-hdf5-helpers_1.10.7+repack-4ubuntu2_amd64.deb ...
+Unpacking hdf5-helpers (1.10.7+repack-4ubuntu2) ...
+Selecting previously unselected package libaec0:amd64.
+Preparing to unpack .../01-libaec0_1.0.6-1_amd64.deb ...
+Unpacking libaec0:amd64 (1.0.6-1) ...
+Selecting previously unselected package libcurl4-openssl-dev:amd64.
+Preparing to unpack .../02-libcurl4-openssl-dev_7.81.0-1ubuntu1.15_amd64.deb ...
+Unpacking libcurl4-openssl-dev:amd64 (7.81.0-1ubuntu1.15) ...
+Selecting previously unselected package libsz2:amd64.
+Preparing to unpack .../03-libsz2_1.0.6-1_amd64.deb ...
+Unpacking libsz2:amd64 (1.0.6-1) ...
+Selecting previously unselected package libhdf5-103-1:amd64.
+Preparing to unpack .../04-libhdf5-103-1_1.10.7+repack-4ubuntu2_amd64.deb ...
+Unpacking libhdf5-103-1:amd64 (1.10.7+repack-4ubuntu2) ...
+Selecting previously unselected package libhdf5-cpp-103-1:amd64.
+Preparing to unpack .../05-libhdf5-cpp-103-1_1.10.7+repack-4ubuntu2_amd64.deb ...
+Unpacking libhdf5-cpp-103-1:amd64 (1.10.7+repack-4ubuntu2) ...
+Selecting previously unselected package libhdf5-fortran-102:amd64.
+Preparing to unpack .../06-libhdf5-fortran-102_1.10.7+repack-4ubuntu2_amd64.deb ...
+Unpacking libhdf5-fortran-102:amd64 (1.10.7+repack-4ubuntu2) ...
+Selecting previously unselected package libhdf5-hl-100:amd64.
+Preparing to unpack .../07-libhdf5-hl-100_1.10.7+repack-4ubuntu2_amd64.deb ...
+Unpacking libhdf5-hl-100:amd64 (1.10.7+repack-4ubuntu2) ...
+Selecting previously unselected package libhdf5-hl-fortran-100:amd64.
+Preparing to unpack .../08-libhdf5-hl-fortran-100_1.10.7+repack-4ubuntu2_amd64.deb ...
+Unpacking libhdf5-hl-fortran-100:amd64 (1.10.7+repack-4ubuntu2) ...
+Selecting previously unselected package libhdf5-hl-cpp-100:amd64.
+Preparing to unpack .../09-libhdf5-hl-cpp-100_1.10.7+repack-4ubuntu2_amd64.deb ...
+Unpacking libhdf5-hl-cpp-100:amd64 (1.10.7+repack-4ubuntu2) ...
+Selecting previously unselected package libjpeg-turbo8-dev:amd64.
+Preparing to unpack .../10-libjpeg-turbo8-dev_2.1.2-0ubuntu1_amd64.deb ...
+Unpacking libjpeg-turbo8-dev:amd64 (2.1.2-0ubuntu1) ...
+Selecting previously unselected package libjpeg8-dev:amd64.
+Preparing to unpack .../11-libjpeg8-dev_8c-2ubuntu10_amd64.deb ...
+Unpacking libjpeg8-dev:amd64 (8c-2ubuntu10) ...
+Selecting previously unselected package libjpeg-dev:amd64.
+Preparing to unpack .../12-libjpeg-dev_8c-2ubuntu10_amd64.deb ...
+Unpacking libjpeg-dev:amd64 (8c-2ubuntu10) ...
+Selecting previously unselected package libaec-dev:amd64.
+Preparing to unpack .../13-libaec-dev_1.0.6-1_amd64.deb ...
+Unpacking libaec-dev:amd64 (1.0.6-1) ...
+Selecting previously unselected package libssl-dev:amd64.
+Preparing to unpack .../14-libssl-dev_3.0.2-0ubuntu1.14_amd64.deb ...
+Unpacking libssl-dev:amd64 (3.0.2-0ubuntu1.14) ...
+Selecting previously unselected package libhdf5-dev.
+Preparing to unpack .../15-libhdf5-dev_1.10.7+repack-4ubuntu2_amd64.deb ...
+Unpacking libhdf5-dev (1.10.7+repack-4ubuntu2) ...
+Selecting previously unselected package libnetcdf19:amd64.
+Preparing to unpack .../16-libnetcdf19_1%3a4.8.1-1_amd64.deb ...
+Unpacking libnetcdf19:amd64 (1:4.8.1-1) ...
+Selecting previously unselected package libnetcdf-c++4-1.
+Preparing to unpack .../17-libnetcdf-c++4-1_4.3.1-3build1_amd64.deb ...
+Unpacking libnetcdf-c++4-1 (4.3.1-3build1) ...
+Selecting previously unselected package libnetcdf-dev.
+Preparing to unpack .../18-libnetcdf-dev_1%3a4.8.1-1_amd64.deb ...
+Unpacking libnetcdf-dev (1:4.8.1-1) ...
+Selecting previously unselected package libnetcdf-c++4-dev.
+Preparing to unpack .../19-libnetcdf-c++4-dev_4.3.1-3build1_amd64.deb ...
+Unpacking libnetcdf-c++4-dev (4.3.1-3build1) ...
+Selecting previously unselected package libnetcdf-c++4-doc.
+Preparing to unpack .../20-libnetcdf-c++4-doc_4.3.1-3build1_all.deb ...
+Unpacking libnetcdf-c++4-doc (4.3.1-3build1) ...
+Selecting previously unselected package pkg-config.
+Preparing to unpack .../21-pkg-config_0.29.2-1ubuntu3_amd64.deb ...
+Unpacking pkg-config (0.29.2-1ubuntu3) ...
+Setting up libjpeg-turbo8-dev:amd64 (2.1.2-0ubuntu1) ...
+Setting up hdf5-helpers (1.10.7+repack-4ubuntu2) ...
+Setting up libaec0:amd64 (1.0.6-1) ...
+Setting up libcurl4-openssl-dev:amd64 (7.81.0-1ubuntu1.15) ...
+Setting up libnetcdf-c++4-doc (4.3.1-3build1) ...
+Setting up libssl-dev:amd64 (3.0.2-0ubuntu1.14) ...
+Setting up pkg-config (0.29.2-1ubuntu3) ...
+Setting up libjpeg8-dev:amd64 (8c-2ubuntu10) ...
+Setting up libsz2:amd64 (1.0.6-1) ...
+Setting up libaec-dev:amd64 (1.0.6-1) ...
+Setting up libjpeg-dev:amd64 (8c-2ubuntu10) ...
+Setting up libhdf5-103-1:amd64 (1.10.7+repack-4ubuntu2) ...
+Setting up libhdf5-cpp-103-1:amd64 (1.10.7+repack-4ubuntu2) ...
+Setting up libhdf5-hl-100:amd64 (1.10.7+repack-4ubuntu2) ...
+Setting up libhdf5-hl-cpp-100:amd64 (1.10.7+repack-4ubuntu2) ...
+Setting up libhdf5-fortran-102:amd64 (1.10.7+repack-4ubuntu2) ...
+Setting up libnetcdf19:amd64 (1:4.8.1-1) ...
+Setting up libhdf5-hl-fortran-100:amd64 (1.10.7+repack-4ubuntu2) ...
+Setting up libnetcdf-c++4-1 (4.3.1-3build1) ...
+Setting up libhdf5-dev (1.10.7+repack-4ubuntu2) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/pkgconfig/hdf5-serial.pc to provide /usr/lib/x86_64-linux-gnu/pkgconfig/hdf5.pc (hdf5.pc) in auto mode
+Setting up libnetcdf-dev (1:4.8.1-1) ...
+Setting up libnetcdf-c++4-dev (4.3.1-3build1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.6) ...
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ ls
+analysis  aux  bin  doc  Make.defs  Makefile  mk  README.md  remove_depend.sh  src  test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ make
+cd src/netcdf-cxx-4.2; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2'
+-- Generating dependencies for ncvalues.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2/build/ncvalues.o /home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2/ncvalues.cpp
+-- Generating dependencies for netcdf.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2/build/netcdf.o /home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2/netcdf.cpp
+rm -f libnetcdf_c++.a
+ar -cqs libnetcdf_c++.a build/*.o
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2'
+cd src/base; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/base'
+-- Generating dependencies for Announce.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/Announce.o /home/ian/Downloads/tempestextremes-master/src/base/Announce.cpp
+-- Generating dependencies for NetCDFUtilities.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/NetCDFUtilities.o /home/ian/Downloads/tempestextremes-master/src/base/NetCDFUtilities.cpp
+-- Generating dependencies for TimeObj.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/TimeObj.o /home/ian/Downloads/tempestextremes-master/src/base/TimeObj.cpp
+-- Generating dependencies for NcFileVector.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/NcFileVector.o /home/ian/Downloads/tempestextremes-master/src/base/NcFileVector.cpp
+-- Generating dependencies for Variable.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/Variable.o /home/ian/Downloads/tempestextremes-master/src/base/Variable.cpp
+-- Generating dependencies for DataOp.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/DataOp.o /home/ian/Downloads/tempestextremes-master/src/base/DataOp.cpp
+-- Generating dependencies for kdtree.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/kdtree.o /home/ian/Downloads/tempestextremes-master/src/base/kdtree.cpp
+-- Generating dependencies for lodepng.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/lodepng.o /home/ian/Downloads/tempestextremes-master/src/base/lodepng.cpp
+-- Generating dependencies for SimpleGridUtilities.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/SimpleGridUtilities.o /home/ian/Downloads/tempestextremes-master/src/base/SimpleGridUtilities.cpp
+-- Generating dependencies for AutoCurator.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/AutoCurator.o /home/ian/Downloads/tempestextremes-master/src/base/AutoCurator.cpp
+-- Generating dependencies for ArgumentTree.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/ArgumentTree.o /home/ian/Downloads/tempestextremes-master/src/base/ArgumentTree.cpp
+-- Generating dependencies for NodeFileUtilities.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/NodeFileUtilities.o /home/ian/Downloads/tempestextremes-master/src/base/NodeFileUtilities.cpp
+-- Generating dependencies for RLLPolygonArray.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/RLLPolygonArray.o /home/ian/Downloads/tempestextremes-master/src/base/RLLPolygonArray.cpp
+-- Generating dependencies for SimpleGrid.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/SimpleGrid.o /home/ian/Downloads/tempestextremes-master/src/base/SimpleGrid.cpp
+-- Generating dependencies for GridElements.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/GridElements.o /home/ian/Downloads/tempestextremes-master/src/base/GridElements.cpp
+-- Generating dependencies for FiniteElementTools.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/FiniteElementTools.o /home/ian/Downloads/tempestextremes-master/src/base/FiniteElementTools.cpp
+-- Generating dependencies for GaussQuadrature.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/GaussQuadrature.o /home/ian/Downloads/tempestextremes-master/src/base/GaussQuadrature.cpp
+-- Generating dependencies for GaussLobattoQuadrature.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/GaussLobattoQuadrature.o /home/ian/Downloads/tempestextremes-master/src/base/GaussLobattoQuadrature.cpp
+-- Generating dependencies for MeshUtilities.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/MeshUtilities.o /home/ian/Downloads/tempestextremes-master/src/base/MeshUtilities.cpp
+-- Generating dependencies for MeshUtilitiesFuzzy.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/MeshUtilitiesFuzzy.o /home/ian/Downloads/tempestextremes-master/src/base/MeshUtilitiesFuzzy.cpp
+-- Generating dependencies for PolynomialInterp.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/PolynomialInterp.o /home/ian/Downloads/tempestextremes-master/src/base/PolynomialInterp.cpp
+-- Generating dependencies for LegendrePolynomial.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/LegendrePolynomial.o /home/ian/Downloads/tempestextremes-master/src/base/LegendrePolynomial.cpp
+-- Generating dependencies for FunctionTimer.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/FunctionTimer.o /home/ian/Downloads/tempestextremes-master/src/base/FunctionTimer.cpp
+-- Generating dependencies for ShpFile.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/ShpFile.o /home/ian/Downloads/tempestextremes-master/src/base/ShpFile.cpp
+rm -f libextremesbase.a
+ar -cqs libextremesbase.a build/*.o
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/base'
+cd src/blobs; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/blobs'
+-- Generating dependencies for StitchBlobs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/blobs/build/StitchBlobs.o /home/ian/Downloads/tempestextremes-master/src/blobs/StitchBlobs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o StitchBlobs  /home/ian/Downloads/tempestextremes-master/src/blobs/build/StitchBlobs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv StitchBlobs ../../bin
+-- Generating dependencies for BlobStats.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/blobs/build/BlobStats.o /home/ian/Downloads/tempestextremes-master/src/blobs/BlobStats.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o BlobStats  /home/ian/Downloads/tempestextremes-master/src/blobs/build/BlobStats.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv BlobStats ../../bin
+-- Generating dependencies for DetectBlobs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/blobs/build/DetectBlobs.o /home/ian/Downloads/tempestextremes-master/src/blobs/DetectBlobs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o DetectBlobs  /home/ian/Downloads/tempestextremes-master/src/blobs/build/DetectBlobs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv DetectBlobs ../../bin
+-- Generating dependencies for PersistentBlobs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/blobs/build/PersistentBlobs.o /home/ian/Downloads/tempestextremes-master/src/blobs/PersistentBlobs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o PersistentBlobs  /home/ian/Downloads/tempestextremes-master/src/blobs/build/PersistentBlobs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv PersistentBlobs ../../bin
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/blobs'
+cd src/nodes; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/nodes'
+-- Generating dependencies for DetectNodes.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/DetectNodes.o /home/ian/Downloads/tempestextremes-master/src/nodes/DetectNodes.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o DetectNodes  /home/ian/Downloads/tempestextremes-master/src/nodes/build/DetectNodes.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv DetectNodes ../../bin
+-- Generating dependencies for HistogramNodes.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/HistogramNodes.o /home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp
+/home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp: In function ‘void GetInputFileList(const string&, std::vector<std::__cxx11::basic_string<char> >&)’:
+/home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp:48:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   48 |                 fgets(szBuffer, 1024, fp);
+      |                 ~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp: In function ‘int main(int, char**)’:
+/home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp:227:30: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  227 |                         fgets(&(strBuffer[0]), 1024, fp);
+      |                         ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o HistogramNodes  /home/ian/Downloads/tempestextremes-master/src/nodes/build/HistogramNodes.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv HistogramNodes ../../bin
+-- Generating dependencies for StitchNodes.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/StitchNodes.o /home/ian/Downloads/tempestextremes-master/src/nodes/StitchNodes.cpp
+/home/ian/Downloads/tempestextremes-master/src/nodes/StitchNodes.cpp: In function ‘void ParseDetectNodesFile(const string&, const std::vector<std::__cxx11::basic_string<char> >&, TimeToCandidateInfoMap&, Time::CalendarType, bool, const Time&, const Time&, size_t)’:
+/home/ian/Downloads/tempestextremes-master/src/nodes/StitchNodes.cpp:142:30: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  142 |                         fgets(szBuffer, 1024, fp);
+      |                         ~~~~~^~~~~~~~~~~~~~~~~~~~
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o StitchNodes  /home/ian/Downloads/tempestextremes-master/src/nodes/build/StitchNodes.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv StitchNodes ../../bin
+-- Generating dependencies for NodeFileEditor.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileEditor.o /home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileEditor.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o NodeFileEditor  /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileEditor.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv NodeFileEditor ../../bin
+-- Generating dependencies for NodeFileFilter.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileFilter.o /home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileFilter.cpp
+/home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileFilter.cpp: In function ‘void NodeFileFilter(const string&, const string&, VariableRegistry&, SimpleGrid&, NodeFile&, const Time::CalendarType&, ColumnDataHeader&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<int>&, const string&, const string&, const std::vector<ClosedContourOp>&, const std::vector<NearbyBlobsOp>&, bool, const std::vector<std::__cxx11::basic_string<char> >&, const string&, const string&, const string&, const string&)’:
+/home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileFilter.cpp:609:42: warning: argument 1 null where non-null expected [-Wnonnull]
+  609 |                         dFillValue = nanf(NULL);
+      |                                      ~~~~^~~~~~
+In file included from /usr/include/c++/11/cmath:45,
+                 from ../../src/base/Units.h:21,
+                 from ../../src/base/STLStringHelper.h:20,
+                 from ../../src/base/TimeObj.h:21,
+                 from ../../src/base/CommandLine.h:20,
+                 from /home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileFilter.cpp:21:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1: note: in a call to function ‘float nanf(const char*)’ declared ‘nonnull’
+  203 | __MATHCALL (nan,, (const char *__tagb));
+      | ^~~~~~~~~~
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o NodeFileFilter  /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileFilter.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv NodeFileFilter ../../bin
+-- Generating dependencies for NodeFileCompose.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileCompose.o /home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileCompose.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o NodeFileCompose  /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileCompose.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv NodeFileCompose ../../bin
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/nodes'
+cd src/atmrivers; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/atmrivers'
+-- Generating dependencies for SpineARs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/atmrivers/build/SpineARs.o /home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o SpineARs  /home/ian/Downloads/tempestextremes-master/src/atmrivers/build/SpineARs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv SpineARs ../../bin
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/atmrivers'
+cd src/util; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/util'
+-- Generating dependencies for GenerateNearestNeighborMap.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/GenerateNearestNeighborMap.o /home/ian/Downloads/tempestextremes-master/src/util/GenerateNearestNeighborMap.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o GenerateNearestNeighborMap  /home/ian/Downloads/tempestextremes-master/src/util/build/GenerateNearestNeighborMap.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv GenerateNearestNeighborMap ../../bin
+-- Generating dependencies for GenerateConnectivityFile.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/GenerateConnectivityFile.o /home/ian/Downloads/tempestextremes-master/src/util/GenerateConnectivityFile.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o GenerateConnectivityFile  /home/ian/Downloads/tempestextremes-master/src/util/build/GenerateConnectivityFile.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv GenerateConnectivityFile ../../bin
+-- Generating dependencies for Climatology.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/Climatology.o /home/ian/Downloads/tempestextremes-master/src/util/Climatology.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o Climatology  /home/ian/Downloads/tempestextremes-master/src/util/build/Climatology.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv Climatology ../../bin
+-- Generating dependencies for FourierFilter.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/FourierFilter.o /home/ian/Downloads/tempestextremes-master/src/util/FourierFilter.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o FourierFilter  /home/ian/Downloads/tempestextremes-master/src/util/build/FourierFilter.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv FourierFilter ../../bin
+-- Generating dependencies for VariableProcessor.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/VariableProcessor.o /home/ian/Downloads/tempestextremes-master/src/util/VariableProcessor.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o VariableProcessor  /home/ian/Downloads/tempestextremes-master/src/util/build/VariableProcessor.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv VariableProcessor ../../bin
+-- Generating dependencies for CompressBlobs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/CompressBlobs.o /home/ian/Downloads/tempestextremes-master/src/util/CompressBlobs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o CompressBlobs  /home/ian/Downloads/tempestextremes-master/src/util/build/CompressBlobs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv CompressBlobs ../../bin
+-- Generating dependencies for IntegrateDimension.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/IntegrateDimension.o /home/ian/Downloads/tempestextremes-master/src/util/IntegrateDimension.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o IntegrateDimension  /home/ian/Downloads/tempestextremes-master/src/util/build/IntegrateDimension.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv IntegrateDimension ../../bin
+-- Generating dependencies for LagrangianParcelTracker.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/LagrangianParcelTracker.o /home/ian/Downloads/tempestextremes-master/src/util/LagrangianParcelTracker.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o LagrangianParcelTracker  /home/ian/Downloads/tempestextremes-master/src/util/build/LagrangianParcelTracker.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv LagrangianParcelTracker ../../bin
+-- Generating dependencies for QuantileCalculator.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/QuantileCalculator.o /home/ian/Downloads/tempestextremes-master/src/util/QuantileCalculator.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o QuantileCalculator  /home/ian/Downloads/tempestextremes-master/src/util/build/QuantileCalculator.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv QuantileCalculator ../../bin
+-- Generating dependencies for AccumulateERA5Forecast.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/AccumulateERA5Forecast.o /home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp
+/home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp: In function ‘int main(int, char**)’:
+/home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp:181:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  181 |                 system(strSystemString.c_str());
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp:188:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  188 |                 system(strSystemString.c_str());
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp:196:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  196 |                 system(strSystemString.c_str());
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o AccumulateERA5Forecast  /home/ian/Downloads/tempestextremes-master/src/util/build/AccumulateERA5Forecast.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv AccumulateERA5Forecast ../../bin
+-- Generating dependencies for AccumulateData.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/AccumulateData.o /home/ian/Downloads/tempestextremes-master/src/util/AccumulateData.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o AccumulateData  /home/ian/Downloads/tempestextremes-master/src/util/build/AccumulateData.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv AccumulateData ../../bin
+-- Generating dependencies for ShapefileMask.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/ShapefileMask.o /home/ian/Downloads/tempestextremes-master/src/util/ShapefileMask.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o ShapefileMask  /home/ian/Downloads/tempestextremes-master/src/util/build/ShapefileMask.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv ShapefileMask ../../bin
+-- Generating dependencies for AutoCuratorTool.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/AutoCuratorTool.o /home/ian/Downloads/tempestextremes-master/src/util/AutoCuratorTool.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o AutoCuratorTool  /home/ian/Downloads/tempestextremes-master/src/util/build/AutoCuratorTool.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv AutoCuratorTool ../../bin
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/util'
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ sudo make install
+make: *** No rule to make target 'install'. Stop.
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ ls
+analysis  aux  bin  doc  Make.defs  Makefile  mk  README.md  remove_depend.sh  src  test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ cd bin
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/bin$ ls
+AccumulateData          BlobStats      DetectBlobs    GenerateConnectivityFile    IntegrateDimension       NodeFileEditor   QuantileCalculator  StitchBlobs
+AccumulateERA5Forecast  Climatology    DetectNodes    GenerateNearestNeighborMap  LagrangianParcelTracker  NodeFileFilter   ShapefileMask       StitchNodes
+AutoCuratorTool         CompressBlobs  FourierFilter  HistogramNodes              NodeFileCompose          PersistentBlobs  SpineARs            VariableProcessor
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/bin$ ./Climatology
+Arguments:
+  --in_data <string> [""] 
+  --in_data_list <string> [""] 
+  --out_data <string> [""] 
+  --var <string> [""] 
+  --varout <string> [""] 
+  --memmax <string> ["8G"] [#K,#M,#G]
+  --period <string> ["daily"] [daily|monthly|seasonal|annual|all]
+  --type <string> ["mean"] [mean|meansq|stddev|autocor|min|max|avgmin|avgmax]
+  --autocorlag <integer> [1] 
+  --include_leap_days <bool> [false] 
+  --time_start <string> [""] 
+  --time_end <string> [""] 
+  --missingdata <bool> [false] 
+  --temp_file_path <string> ["/tmp"] 
+  --fillvalue <string> [""] 
+  --timefilter <string> [""] 
+  --keep_temp_files <bool> [false] 
+  --verbose <bool> [false] 
+------------------------------------------------------------
+EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/util/Climatology.cpp, Line 2336) No input data file (--in_data) or (--in_data_list) specified
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/bin$ cd /Downloads/tempestextremes-master/test
+bash: cd: /Downloads/tempestextremes-master/test: No such file or directory
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/bin$ cd ~/Downloads/tempestextremes-master/test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["IVT_MERRA_201702/*.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/IVT_MERRA_201702/*.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "IVT_MERRA_201702/*.nc"
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/base/NcFileVector.cpp, Line 54) Cannot open input file "IVT_MERRA_201702/*.nc"
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ cd Downloads
+bash: cd: Downloads: No such file or directory
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ cd ~/Downloads
+ian@ian-Latitude-E7440:~/Downloads$ ls *.nc
+test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads$ cp test_echam_spectral.nc IVT_MERRA_201702/*.nc
+cp: cannot create regular file 'IVT_MERRA_201702/*.nc': No such file or directory
+ian@ian-Latitude-E7440:~/Downloads$ cd tempestextemes-master
+bash: cd: tempestextemes-master: No such file or directory
+ian@ian-Latitude-E7440:~/Downloads$ cd tempestextremes-master
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ ls
+analysis  aux  bin  doc  Make.defs  Makefile  mk  README.md  remove_depend.sh  src  test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ cd test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine-ars.sh < ~/Downloads/test_echam_spectral.nc
+bash: ./run_spine-ars.sh: No such file or directory
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh < ~/Downloads/test_echam_spectral.nc
+Arguments:
+  --in <string> ["IVT_MERRA_201702/*.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/IVT_MERRA_201702/*.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "IVT_MERRA_201702/*.nc"
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/base/NcFileVector.cpp, Line 54) Cannot open input file "IVT_MERRA_201702/*.nc"
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ cp ~/Downloads/test_echam_spectral.nc VT_MERRA_201702/*.nc -r
+cp: cannot create regular file 'VT_MERRA_201702/*.nc': No such file or directory
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls *.nc
+ls: cannot access '*.nc': No such file or directory
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls ~/Downloads/*.nc
+/home/ian/Downloads/test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ cp ~/Downloads/*.nc test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh  test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["test_echam_spectral.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/test_echam_spectral.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "test_echam_spectral.nc"
+....Generating RLL grid data
+......Total calculated grid area: 1.256637061435850e+01 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "output/test_echam_spectral.nc" for writing
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["test_echam_spectral.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/test_echam_spectral.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "test_echam_spectral.nc"
+....Generating RLL grid data
+......Total calculated grid area: 1.256637061435850e+01 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "output/test_echam_spectral.nc" for writing
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["test_echam_spectral.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "test_echam_spectral.nc"
+....Generating RLL grid data
+......Total calculated grid area: 1.256637061435850e+01 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "output/output.nc" for writing
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano output/output.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["test_echam_spectral.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "test_echam_spectral.nc"
+....Generating RLL grid data
+......Total calculated grid area: 1.256637061435850e+01 sr
+......Done
+....Time 0
+......EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/base/Variable.cpp, Line 834) Variable "IVT" not found in input files
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["test_echam_spectral.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "test_echam_spectral.nc"
+....Generating RLL grid data
+......Total calculated grid area: 1.256637061435850e+01 sr
+......Done
+....Time 0
+......EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/base/Variable.cpp, Line 834) Variable "IVT" not found in input files
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["test_echam_spectral.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output.nc"] 
+  --out_list <string> [""] 
+  --var <string> [""] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 1632) No search-by variable name (--var) specified
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Error: Insufficient values for option --var
+
+Usage: ../bin/SpineARs <Argument List>
+Arguments:
+  --in <string> ["test_echam_spectral.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output.nc"] 
+  --out_list <string> [""] 
+  --var <string> [""] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [5] 
+  --minlaplacian <double> [5000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [20.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [0] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [-1] 
+  --addtimedimunits <string> [""] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+ERROR: Invalid argument "import_scripts"
+ERROR: Invalid argument "output"
+ERROR: Invalid argument "run_spine_ars.sh"
+ERROR: Invalid argument "test_echam_spectral.nc"
+
+Usage: ../bin/SpineARs <Argument List>
+Arguments:
+  --in <string> ["test_echam_spectral.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output2.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["control_shell"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ cd ~/Downloads
+ian@ian-Latitude-E7440:~/Downloads$ ls
+ 1brc-fortran-main
+ 1brc-fortran-main.zip
+ allo2.c
+ allo3.c
+ allo.c
+ allocatetest.f08
+ allocatetetest.f08
+ allo.f
+ allo.f08
+ alocatetest.f08
+ a.out
+'Bureau of Meteorology’s false advice has had ‘real consequences’ for Australian farmers.mp4'
+ commonallocate.f08
+ commonexample.f08
+ commontest.f
+ commontest.f08
+ commontest.s
+ cv_debug.log
+'Form - Consent for your NDIS information 2023-09-12.docx'
+'GDC_KL 1245 WaveLink datasheet 0622MZ v11.pdf'
+'GDC_KL 1245 WaveLink datasheet 0622MZ v11.txt'
+'God of Our Fathers Gallipoli Choir 2015-1.pdf'
+'God of Our Fathers Gallipoli Choir 2015.mp4'
+'God of Our Fathers Gallipoli Choir 2015.pdf'
+ google-chrome-stable_current_amd64.deb
+'https __soa.ieee.org_doc-root_document_ackPack_card_31373935363233303534363230303230_94396130.PDF'
+'ITS FINALLY DONE- Kim Jong-Uns Private Plane shot down by South Korean Air Defense Missile.mp4'
+ julia-1.10.0
+ julia-1.10.0-full.tar.gz
+ julia-1.10.0-linux-x86_64.tar.gz
+ master.zip
+ MEMIEEE500.pdf
+ microsoft-edge-stable_121.0.2277.83-1_amd64.deb
+'My TAA-300 homemade audio amplifier.mp4'
+ passfunct.f08.save
+ phil4
+ phil4.c
+ phil4.py
+ QbRo40nG.zip.part
+'Resident and Representative Meeting Agenda_Minutes Jan 24_Level 3 (Russian Translation).pdf'
+'Resident and Representative Meeting Agenda_Minutes Jan 24_Level 3 (Russian Translation).txt'
+ rss.xml
+'Samantha chats with Abe Cytrynowski - ANZCA examiner and adjudicator.mp4'
+'ShabbosRav(144)-MesechtaDiKehillah-2024-02-04.m3u'
+ temperature_data.txt
+ tempestextremes-master
+ tempestextremes-master.zip
+ test_echam_spectral.nc
+ test.text
+ test.txt
+ testv.f08
+ utft2.f08
+ utftest.f08
+'Wiener Sängerknaben - Matrosen Polka -official video-.mp4'
+ zoom_amd64.deb
+ian@ian-Latitude-E7440:~/Downloads$ rm tempestextremes-master -r
+ian@ian-Latitude-E7440:~/Downloads$ unzip tempestextremes-master.zip
+Archive:  tempestextremes-master.zip
+b8bd831d3fa579c8de74d2b0927367bda66e80b3
+   creating: tempestextremes-master/
+  inflating: tempestextremes-master/.gitignore  
+  inflating: tempestextremes-master/Make.defs  
+  inflating: tempestextremes-master/Makefile  
+  inflating: tempestextremes-master/README.md  
+   creating: tempestextremes-master/analysis/
+   creating: tempestextremes-master/analysis/blobmetrics/
+   creating: tempestextremes-master/analysis/blobmetrics/doc/
+  inflating: tempestextremes-master/analysis/blobmetrics/doc/BlobMetrics-UserGuide.aux  
+  inflating: tempestextremes-master/analysis/blobmetrics/doc/BlobMetrics-UserGuide.log  
+  inflating: tempestextremes-master/analysis/blobmetrics/doc/BlobMetrics-UserGuide.pdf  
+  inflating: tempestextremes-master/analysis/blobmetrics/doc/BlobMetrics-UserGuide.synctex.gz  
+  inflating: tempestextremes-master/analysis/blobmetrics/doc/BlobMetrics-UserGuide.tex  
+  inflating: tempestextremes-master/analysis/blobmetrics/doc/BlobMetrics-UserGuide.toc  
+  inflating: tempestextremes-master/analysis/blobmetrics/doc/Framework_figure.pdf  
+  inflating: tempestextremes-master/analysis/blobmetrics/download_libraries.R  
+   creating: tempestextremes-master/analysis/blobmetrics/examples/
+  inflating: tempestextremes-master/analysis/blobmetrics/examples/DJF_NP_CMCC-CESM-RCP8.5_CMCC-CESM_JRA_MERRA_CFSR_ERA_report.html  
+  inflating: tempestextremes-master/analysis/blobmetrics/examples/DJF_NP_model_reanalysis_dataset_namelist_master.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/examples/JJA_SP_JRA_MERRA_CFSR_ERA_report.html  
+  inflating: tempestextremes-master/analysis/blobmetrics/examples/JJA_SP_reanalysis_dataset_namelist_master.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/examples/blank_setupfile.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/examples/setup_full.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/examples/setup_reanalysis.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/gen_blank_setupfile.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/generateNamelist.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/generateReport.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/intercomparison.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/mergetable.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/pearson.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/pearsonrmse.R  
+   creating: tempestextremes-master/analysis/blobmetrics/python/
+  inflating: tempestextremes-master/analysis/blobmetrics/python/calcBlockIndices.py  
+  inflating: tempestextremes-master/analysis/blobmetrics/python/mergeStats.py  
+  inflating: tempestextremes-master/analysis/blobmetrics/python/readStats.py  
+  inflating: tempestextremes-master/analysis/blobmetrics/python/summStats.py  
+  inflating: tempestextremes-master/analysis/blobmetrics/readfiles.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/readnetcdf.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/readtable.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/report_template.Rmd  
+  inflating: tempestextremes-master/analysis/blobmetrics/stitch_metric_framework.R  
+  inflating: tempestextremes-master/analysis/blobmetrics/summarize.R  
+   creating: tempestextremes-master/aux/
+  inflating: tempestextremes-master/aux/tc_basins_v1.dat  
+   creating: tempestextremes-master/bin/
+  inflating: tempestextremes-master/bin/.gitignore  
+   creating: tempestextremes-master/doc/
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.aux  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.dvi  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.idx  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.ilg  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.ind  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.log  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.out  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.pdf  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.synctex.gz  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.tex  
+  inflating: tempestextremes-master/doc/TempestExtremes-UserGuide.toc  
+   creating: tempestextremes-master/mk/
+  inflating: tempestextremes-master/mk/config.make  
+  inflating: tempestextremes-master/mk/defs.make  
+  inflating: tempestextremes-master/mk/framework.make  
+  inflating: tempestextremes-master/mk/rules.make  
+  inflating: tempestextremes-master/mk/system.make  
+   creating: tempestextremes-master/mk/system/
+  inflating: tempestextremes-master/mk/system/cheyenne.make  
+  inflating: tempestextremes-master/mk/system/cori.make  
+  inflating: tempestextremes-master/mk/system/default.make  
+  inflating: tempestextremes-master/mk/system/example.make  
+  inflating: tempestextremes-master/mk/system/macosx.make  
+  inflating: tempestextremes-master/mk/system/perlmutter.make  
+  inflating: tempestextremes-master/remove_depend.sh  
+   creating: tempestextremes-master/src/
+   creating: tempestextremes-master/src/atmrivers/
+  inflating: tempestextremes-master/src/atmrivers/Makefile  
+  inflating: tempestextremes-master/src/atmrivers/SpineARs.cpp  
+   creating: tempestextremes-master/src/base/
+  inflating: tempestextremes-master/src/base/Announce.cpp  
+  inflating: tempestextremes-master/src/base/Announce.h  
+  inflating: tempestextremes-master/src/base/ArgumentTree.cpp  
+  inflating: tempestextremes-master/src/base/ArgumentTree.h  
+  inflating: tempestextremes-master/src/base/AutoCurator.cpp  
+  inflating: tempestextremes-master/src/base/AutoCurator.h  
+  inflating: tempestextremes-master/src/base/CommandLine.h  
+  inflating: tempestextremes-master/src/base/Constants.h  
+  inflating: tempestextremes-master/src/base/CoordTransforms.h  
+  inflating: tempestextremes-master/src/base/DataArray1D.h  
+  inflating: tempestextremes-master/src/base/DataArray2D.h  
+  inflating: tempestextremes-master/src/base/DataArray3D.h  
+  inflating: tempestextremes-master/src/base/DataArray4D.h  
+  inflating: tempestextremes-master/src/base/DataOp.cpp  
+  inflating: tempestextremes-master/src/base/DataOp.h  
+  inflating: tempestextremes-master/src/base/Defines.h  
+  inflating: tempestextremes-master/src/base/Exception.h  
+  inflating: tempestextremes-master/src/base/FilenameList.h  
+  inflating: tempestextremes-master/src/base/FiniteElementTools.cpp  
+  inflating: tempestextremes-master/src/base/FiniteElementTools.h  
+  inflating: tempestextremes-master/src/base/FourierTransforms.h  
+  inflating: tempestextremes-master/src/base/FunctionTimer.cpp  
+  inflating: tempestextremes-master/src/base/FunctionTimer.h  
+  inflating: tempestextremes-master/src/base/GaussLobattoQuadrature.cpp  
+  inflating: tempestextremes-master/src/base/GaussLobattoQuadrature.h  
+  inflating: tempestextremes-master/src/base/GaussQuadrature.cpp  
+  inflating: tempestextremes-master/src/base/GaussQuadrature.h  
+  inflating: tempestextremes-master/src/base/GridElements.cpp  
+  inflating: tempestextremes-master/src/base/GridElements.h  
+  inflating: tempestextremes-master/src/base/LatLonBox.h  
+  inflating: tempestextremes-master/src/base/LegendrePolynomial.cpp  
+  inflating: tempestextremes-master/src/base/LegendrePolynomial.h  
+  inflating: tempestextremes-master/src/base/Makefile  
+  inflating: tempestextremes-master/src/base/MathExpression.h  
+  inflating: tempestextremes-master/src/base/MeshUtilities.cpp  
+  inflating: tempestextremes-master/src/base/MeshUtilities.h  
+  inflating: tempestextremes-master/src/base/MeshUtilitiesFuzzy.cpp  
+  inflating: tempestextremes-master/src/base/MeshUtilitiesFuzzy.h  
+  inflating: tempestextremes-master/src/base/NcFileVector.cpp  
+  inflating: tempestextremes-master/src/base/NcFileVector.h  
+  inflating: tempestextremes-master/src/base/NetCDFUtilities.cpp  
+  inflating: tempestextremes-master/src/base/NetCDFUtilities.h  
+  inflating: tempestextremes-master/src/base/NodeFileUtilities.cpp  
+  inflating: tempestextremes-master/src/base/NodeFileUtilities.h  
+  inflating: tempestextremes-master/src/base/PolynomialInterp.cpp  
+  inflating: tempestextremes-master/src/base/PolynomialInterp.h  
+  inflating: tempestextremes-master/src/base/RLLPolygonArray.cpp  
+  inflating: tempestextremes-master/src/base/RLLPolygonArray.h  
+  inflating: tempestextremes-master/src/base/STLStringHelper.h  
+  inflating: tempestextremes-master/src/base/ShpFile.cpp  
+  inflating: tempestextremes-master/src/base/ShpFile.h  
+  inflating: tempestextremes-master/src/base/SimpleGrid.cpp  
+  inflating: tempestextremes-master/src/base/SimpleGrid.h  
+  inflating: tempestextremes-master/src/base/SimpleGridUtilities.cpp  
+  inflating: tempestextremes-master/src/base/SimpleGridUtilities.h  
+  inflating: tempestextremes-master/src/base/SparseMatrix.h  
+  inflating: tempestextremes-master/src/base/Subscript.h  
+  inflating: tempestextremes-master/src/base/ThresholdOp.h  
+  inflating: tempestextremes-master/src/base/TimeMatch.h  
+  inflating: tempestextremes-master/src/base/TimeObj.cpp  
+  inflating: tempestextremes-master/src/base/TimeObj.h  
+  inflating: tempestextremes-master/src/base/Units.h  
+  inflating: tempestextremes-master/src/base/Variable.cpp  
+  inflating: tempestextremes-master/src/base/Variable.h  
+  inflating: tempestextremes-master/src/base/kdtree.cpp  
+  inflating: tempestextremes-master/src/base/kdtree.h  
+  inflating: tempestextremes-master/src/base/lodepng.cpp  
+  inflating: tempestextremes-master/src/base/lodepng.h  
+  inflating: tempestextremes-master/src/base/order32.h  
+   creating: tempestextremes-master/src/blobs/
+  inflating: tempestextremes-master/src/blobs/BlobStats.cpp  
+  inflating: tempestextremes-master/src/blobs/BlobUtilities.h  
+  inflating: tempestextremes-master/src/blobs/DetectBlobs.cpp  
+  inflating: tempestextremes-master/src/blobs/Makefile  
+  inflating: tempestextremes-master/src/blobs/PersistentBlobs.cpp  
+  inflating: tempestextremes-master/src/blobs/StitchBlobs.cpp  
+   creating: tempestextremes-master/src/blocking/
+  inflating: tempestextremes-master/src/blocking/AvgVar.cpp  
+  inflating: tempestextremes-master/src/blocking/BlockingDFT.cpp  
+  inflating: tempestextremes-master/src/blocking/BlockingDevs.cpp  
+  inflating: tempestextremes-master/src/blocking/BlockingGHG.cpp  
+  inflating: tempestextremes-master/src/blocking/BlockingNormDevs.cpp  
+  inflating: tempestextremes-master/src/blocking/BlockingPV.cpp  
+  inflating: tempestextremes-master/src/blocking/BlockingThresh.cpp  
+  inflating: tempestextremes-master/src/blocking/BlockingUtilities.cpp  
+  inflating: tempestextremes-master/src/blocking/BlockingUtilities.h  
+  inflating: tempestextremes-master/src/blocking/CombineBlobs.cpp  
+  inflating: tempestextremes-master/src/blocking/DFT.cpp  
+  inflating: tempestextremes-master/src/blocking/DFT.h  
+  inflating: tempestextremes-master/src/blocking/DailyAverage.cpp  
+  inflating: tempestextremes-master/src/blocking/DensityCalculations.cpp  
+  inflating: tempestextremes-master/src/blocking/DetrendHeights.cpp  
+  inflating: tempestextremes-master/src/blocking/ExtractTimeStep.cpp  
+  inflating: tempestextremes-master/src/blocking/Interp_z500.cpp  
+  inflating: tempestextremes-master/src/blocking/Interp_z500.h  
+  inflating: tempestextremes-master/src/blocking/Interpolate.cpp  
+  inflating: tempestextremes-master/src/blocking/Interpolate.h  
+  inflating: tempestextremes-master/src/blocking/Makefile  
+  inflating: tempestextremes-master/src/blocking/Smooth61Day.cpp  
+  inflating: tempestextremes-master/src/blocking/SplitFile.cpp  
+  inflating: tempestextremes-master/src/blocking/Var4Dto3D.cpp  
+  inflating: tempestextremes-master/src/blocking/calcLinReg.py  
+   creating: tempestextremes-master/src/metrics/
+  inflating: tempestextremes-master/src/metrics/HeatWaveMetrics.cpp  
+  inflating: tempestextremes-master/src/metrics/Makefile  
+   creating: tempestextremes-master/src/netcdf-cxx-4.2/
+  inflating: tempestextremes-master/src/netcdf-cxx-4.2/COPYRIGHT  
+  inflating: tempestextremes-master/src/netcdf-cxx-4.2/Makefile  
+  inflating: tempestextremes-master/src/netcdf-cxx-4.2/README  
+  inflating: tempestextremes-master/src/netcdf-cxx-4.2/config.h  
+  inflating: tempestextremes-master/src/netcdf-cxx-4.2/ncvalues.cpp  
+  inflating: tempestextremes-master/src/netcdf-cxx-4.2/ncvalues.h  
+  inflating: tempestextremes-master/src/netcdf-cxx-4.2/netcdf.cpp  
+ extracting: tempestextremes-master/src/netcdf-cxx-4.2/netcdf.hh  
+  inflating: tempestextremes-master/src/netcdf-cxx-4.2/netcdfcpp.h  
+   creating: tempestextremes-master/src/nodes/
+  inflating: tempestextremes-master/src/nodes/ClosedContourOp.h  
+  inflating: tempestextremes-master/src/nodes/DetectNodes.cpp  
+  inflating: tempestextremes-master/src/nodes/HistogramNodes.cpp  
+  inflating: tempestextremes-master/src/nodes/Makefile  
+  inflating: tempestextremes-master/src/nodes/NodeFileCompose.cpp  
+  inflating: tempestextremes-master/src/nodes/NodeFileEditor.cpp  
+  inflating: tempestextremes-master/src/nodes/NodeFileFilter.cpp  
+  inflating: tempestextremes-master/src/nodes/NodeOutputOp.h  
+  inflating: tempestextremes-master/src/nodes/StitchNodes.cpp  
+   creating: tempestextremes-master/src/util/
+  inflating: tempestextremes-master/src/util/AccumulateData.cpp  
+  inflating: tempestextremes-master/src/util/AccumulateERA5Forecast.cpp  
+  inflating: tempestextremes-master/src/util/AutoCuratorTool.cpp  
+  inflating: tempestextremes-master/src/util/Climatology.cpp  
+  inflating: tempestextremes-master/src/util/CompressBlobs.cpp  
+  inflating: tempestextremes-master/src/util/FourierFilter.cpp  
+  inflating: tempestextremes-master/src/util/GenerateConnectivityFile.cpp  
+  inflating: tempestextremes-master/src/util/GenerateNearestNeighborMap.cpp  
+  inflating: tempestextremes-master/src/util/IntegrateDimension.cpp  
+  inflating: tempestextremes-master/src/util/LagrangianParcelTracker.cpp  
+  inflating: tempestextremes-master/src/util/Makefile  
+  inflating: tempestextremes-master/src/util/QuantileCalculator.cpp  
+  inflating: tempestextremes-master/src/util/ShapefileMask.cpp  
+  inflating: tempestextremes-master/src/util/VariableProcessor.cpp  
+   creating: tempestextremes-master/test/
+   creating: tempestextremes-master/test/control_shell/
+  inflating: tempestextremes-master/test/control_shell/CLIVAR_BLOBS_GH_LOOP.sh  
+  inflating: tempestextremes-master/test/control_shell/CLIVAR_BLOBS_PV_LOOP.sh  
+  inflating: tempestextremes-master/test/control_shell/ERA_BLOBS_CONST_LOOP.sh  
+  inflating: tempestextremes-master/test/control_shell/ERA_BLOBS_LOOP.sh  
+  inflating: tempestextremes-master/test/control_shell/ERA_DETECT_LOOP.sh  
+  inflating: tempestextremes-master/test/control_shell/ERA_GHAnom_controls.sh  
+  inflating: tempestextremes-master/test/control_shell/GH_script.sh  
+  inflating: tempestextremes-master/test/control_shell/PV_script.sh  
+  inflating: tempestextremes-master/test/control_shell/interp_clivar_to_climo.ncl  
+  inflating: tempestextremes-master/test/control_shell/new_splits.sh  
+   creating: tempestextremes-master/test/import_scripts/
+  inflating: tempestextremes-master/test/import_scripts/auto_workflow.py  
+  inflating: tempestextremes-master/test/import_scripts/batch_anom_import.py  
+  inflating: tempestextremes-master/test/import_scripts/batch_import.py  
+  inflating: tempestextremes-master/test/import_scripts/batch_sfc_import.py  
+  inflating: tempestextremes-master/test/import_scripts/format_nc_ERA.py  
+  inflating: tempestextremes-master/test/run_spine_ars.sh  
+ian@ian-Latitude-E7440:~/Downloads$ cd tempestextremes-master
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ ls
+analysis  aux  bin  doc  Make.defs  Makefile  mk  README.md  remove_depend.sh  src  test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ cd test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls ~/Downloads/*.nc
+/home/ian/Downloads/test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ cp ~/Downloads/test_echam_spectral.nc test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh  sresa1b_ncar_ccsm3-example.nc  test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+./run_spine_ars.sh: line 5: ../bin/SpineARs: No such file or directory
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+./run_spine_ars.sh: line 5: ../bin/SpineARs: No such file or directory
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh  sresa1b_ncar_ccsm3-example.nc  test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ cd ~/Downloads/tempestextremes-master
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ ls
+analysis  aux  bin  doc  Make.defs  Makefile  mk  README.md  remove_depend.sh  src  test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ make
+cd src/netcdf-cxx-4.2; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2'
+-- Generating dependencies for ncvalues.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2/build/ncvalues.o /home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2/ncvalues.cpp
+-- Generating dependencies for netcdf.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2/build/netcdf.o /home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2/netcdf.cpp
+rm -f libnetcdf_c++.a
+ar -cqs libnetcdf_c++.a build/*.o
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/netcdf-cxx-4.2'
+cd src/base; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/base'
+-- Generating dependencies for Announce.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/Announce.o /home/ian/Downloads/tempestextremes-master/src/base/Announce.cpp
+-- Generating dependencies for NetCDFUtilities.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/NetCDFUtilities.o /home/ian/Downloads/tempestextremes-master/src/base/NetCDFUtilities.cpp
+-- Generating dependencies for TimeObj.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/TimeObj.o /home/ian/Downloads/tempestextremes-master/src/base/TimeObj.cpp
+-- Generating dependencies for NcFileVector.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/NcFileVector.o /home/ian/Downloads/tempestextremes-master/src/base/NcFileVector.cpp
+-- Generating dependencies for Variable.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/Variable.o /home/ian/Downloads/tempestextremes-master/src/base/Variable.cpp
+-- Generating dependencies for DataOp.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/DataOp.o /home/ian/Downloads/tempestextremes-master/src/base/DataOp.cpp
+-- Generating dependencies for kdtree.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/kdtree.o /home/ian/Downloads/tempestextremes-master/src/base/kdtree.cpp
+-- Generating dependencies for lodepng.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/lodepng.o /home/ian/Downloads/tempestextremes-master/src/base/lodepng.cpp
+-- Generating dependencies for SimpleGridUtilities.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/SimpleGridUtilities.o /home/ian/Downloads/tempestextremes-master/src/base/SimpleGridUtilities.cpp
+-- Generating dependencies for AutoCurator.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/AutoCurator.o /home/ian/Downloads/tempestextremes-master/src/base/AutoCurator.cpp
+-- Generating dependencies for ArgumentTree.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/ArgumentTree.o /home/ian/Downloads/tempestextremes-master/src/base/ArgumentTree.cpp
+-- Generating dependencies for NodeFileUtilities.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/NodeFileUtilities.o /home/ian/Downloads/tempestextremes-master/src/base/NodeFileUtilities.cpp
+-- Generating dependencies for RLLPolygonArray.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/RLLPolygonArray.o /home/ian/Downloads/tempestextremes-master/src/base/RLLPolygonArray.cpp
+-- Generating dependencies for SimpleGrid.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/SimpleGrid.o /home/ian/Downloads/tempestextremes-master/src/base/SimpleGrid.cpp
+-- Generating dependencies for GridElements.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/GridElements.o /home/ian/Downloads/tempestextremes-master/src/base/GridElements.cpp
+-- Generating dependencies for FiniteElementTools.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/FiniteElementTools.o /home/ian/Downloads/tempestextremes-master/src/base/FiniteElementTools.cpp
+-- Generating dependencies for GaussQuadrature.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/GaussQuadrature.o /home/ian/Downloads/tempestextremes-master/src/base/GaussQuadrature.cpp
+-- Generating dependencies for GaussLobattoQuadrature.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/GaussLobattoQuadrature.o /home/ian/Downloads/tempestextremes-master/src/base/GaussLobattoQuadrature.cpp
+-- Generating dependencies for MeshUtilities.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/MeshUtilities.o /home/ian/Downloads/tempestextremes-master/src/base/MeshUtilities.cpp
+-- Generating dependencies for MeshUtilitiesFuzzy.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/MeshUtilitiesFuzzy.o /home/ian/Downloads/tempestextremes-master/src/base/MeshUtilitiesFuzzy.cpp
+-- Generating dependencies for PolynomialInterp.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/PolynomialInterp.o /home/ian/Downloads/tempestextremes-master/src/base/PolynomialInterp.cpp
+-- Generating dependencies for LegendrePolynomial.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/LegendrePolynomial.o /home/ian/Downloads/tempestextremes-master/src/base/LegendrePolynomial.cpp
+-- Generating dependencies for FunctionTimer.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/FunctionTimer.o /home/ian/Downloads/tempestextremes-master/src/base/FunctionTimer.cpp
+-- Generating dependencies for ShpFile.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/base/build/ShpFile.o /home/ian/Downloads/tempestextremes-master/src/base/ShpFile.cpp
+rm -f libextremesbase.a
+ar -cqs libextremesbase.a build/*.o
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/base'
+cd src/blobs; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/blobs'
+-- Generating dependencies for StitchBlobs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/blobs/build/StitchBlobs.o /home/ian/Downloads/tempestextremes-master/src/blobs/StitchBlobs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o StitchBlobs  /home/ian/Downloads/tempestextremes-master/src/blobs/build/StitchBlobs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv StitchBlobs ../../bin
+-- Generating dependencies for BlobStats.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/blobs/build/BlobStats.o /home/ian/Downloads/tempestextremes-master/src/blobs/BlobStats.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o BlobStats  /home/ian/Downloads/tempestextremes-master/src/blobs/build/BlobStats.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv BlobStats ../../bin
+-- Generating dependencies for DetectBlobs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/blobs/build/DetectBlobs.o /home/ian/Downloads/tempestextremes-master/src/blobs/DetectBlobs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o DetectBlobs  /home/ian/Downloads/tempestextremes-master/src/blobs/build/DetectBlobs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv DetectBlobs ../../bin
+-- Generating dependencies for PersistentBlobs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/blobs/build/PersistentBlobs.o /home/ian/Downloads/tempestextremes-master/src/blobs/PersistentBlobs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o PersistentBlobs  /home/ian/Downloads/tempestextremes-master/src/blobs/build/PersistentBlobs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv PersistentBlobs ../../bin
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/blobs'
+cd src/nodes; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/nodes'
+-- Generating dependencies for DetectNodes.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/DetectNodes.o /home/ian/Downloads/tempestextremes-master/src/nodes/DetectNodes.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o DetectNodes  /home/ian/Downloads/tempestextremes-master/src/nodes/build/DetectNodes.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv DetectNodes ../../bin
+-- Generating dependencies for HistogramNodes.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/HistogramNodes.o /home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp
+/home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp: In function ‘void GetInputFileList(const string&, std::vector<std::__cxx11::basic_string<char> >&)’:
+/home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp:48:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   48 |                 fgets(szBuffer, 1024, fp);
+      |                 ~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp: In function ‘int main(int, char**)’:
+/home/ian/Downloads/tempestextremes-master/src/nodes/HistogramNodes.cpp:227:30: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  227 |                         fgets(&(strBuffer[0]), 1024, fp);
+      |                         ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o HistogramNodes  /home/ian/Downloads/tempestextremes-master/src/nodes/build/HistogramNodes.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv HistogramNodes ../../bin
+-- Generating dependencies for StitchNodes.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/StitchNodes.o /home/ian/Downloads/tempestextremes-master/src/nodes/StitchNodes.cpp
+/home/ian/Downloads/tempestextremes-master/src/nodes/StitchNodes.cpp: In function ‘void ParseDetectNodesFile(const string&, const std::vector<std::__cxx11::basic_string<char> >&, TimeToCandidateInfoMap&, Time::CalendarType, bool, const Time&, const Time&, size_t)’:
+/home/ian/Downloads/tempestextremes-master/src/nodes/StitchNodes.cpp:142:30: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  142 |                         fgets(szBuffer, 1024, fp);
+      |                         ~~~~~^~~~~~~~~~~~~~~~~~~~
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o StitchNodes  /home/ian/Downloads/tempestextremes-master/src/nodes/build/StitchNodes.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv StitchNodes ../../bin
+-- Generating dependencies for NodeFileEditor.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileEditor.o /home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileEditor.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o NodeFileEditor  /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileEditor.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv NodeFileEditor ../../bin
+-- Generating dependencies for NodeFileFilter.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileFilter.o /home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileFilter.cpp
+/home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileFilter.cpp: In function ‘void NodeFileFilter(const string&, const string&, VariableRegistry&, SimpleGrid&, NodeFile&, const Time::CalendarType&, ColumnDataHeader&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<int>&, const string&, const string&, const std::vector<ClosedContourOp>&, const std::vector<NearbyBlobsOp>&, bool, const std::vector<std::__cxx11::basic_string<char> >&, const string&, const string&, const string&, const string&)’:
+/home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileFilter.cpp:609:42: warning: argument 1 null where non-null expected [-Wnonnull]
+  609 |                         dFillValue = nanf(NULL);
+      |                                      ~~~~^~~~~~
+In file included from /usr/include/c++/11/cmath:45,
+                 from ../../src/base/Units.h:21,
+                 from ../../src/base/STLStringHelper.h:20,
+                 from ../../src/base/TimeObj.h:21,
+                 from ../../src/base/CommandLine.h:20,
+                 from /home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileFilter.cpp:21:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1: note: in a call to function ‘float nanf(const char*)’ declared ‘nonnull’
+  203 | __MATHCALL (nan,, (const char *__tagb));
+      | ^~~~~~~~~~
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o NodeFileFilter  /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileFilter.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv NodeFileFilter ../../bin
+-- Generating dependencies for NodeFileCompose.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileCompose.o /home/ian/Downloads/tempestextremes-master/src/nodes/NodeFileCompose.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o NodeFileCompose  /home/ian/Downloads/tempestextremes-master/src/nodes/build/NodeFileCompose.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv NodeFileCompose ../../bin
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/nodes'
+cd src/atmrivers; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/atmrivers'
+-- Generating dependencies for SpineARs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/atmrivers/build/SpineARs.o /home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o SpineARs  /home/ian/Downloads/tempestextremes-master/src/atmrivers/build/SpineARs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv SpineARs ../../bin
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/atmrivers'
+cd src/util; make
+make[1]: Entering directory '/home/ian/Downloads/tempestextremes-master/src/util'
+-- Generating dependencies for GenerateNearestNeighborMap.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/GenerateNearestNeighborMap.o /home/ian/Downloads/tempestextremes-master/src/util/GenerateNearestNeighborMap.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o GenerateNearestNeighborMap  /home/ian/Downloads/tempestextremes-master/src/util/build/GenerateNearestNeighborMap.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv GenerateNearestNeighborMap ../../bin
+-- Generating dependencies for GenerateConnectivityFile.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/GenerateConnectivityFile.o /home/ian/Downloads/tempestextremes-master/src/util/GenerateConnectivityFile.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o GenerateConnectivityFile  /home/ian/Downloads/tempestextremes-master/src/util/build/GenerateConnectivityFile.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv GenerateConnectivityFile ../../bin
+-- Generating dependencies for Climatology.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/Climatology.o /home/ian/Downloads/tempestextremes-master/src/util/Climatology.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o Climatology  /home/ian/Downloads/tempestextremes-master/src/util/build/Climatology.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv Climatology ../../bin
+-- Generating dependencies for FourierFilter.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/FourierFilter.o /home/ian/Downloads/tempestextremes-master/src/util/FourierFilter.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o FourierFilter  /home/ian/Downloads/tempestextremes-master/src/util/build/FourierFilter.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv FourierFilter ../../bin
+-- Generating dependencies for VariableProcessor.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/VariableProcessor.o /home/ian/Downloads/tempestextremes-master/src/util/VariableProcessor.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o VariableProcessor  /home/ian/Downloads/tempestextremes-master/src/util/build/VariableProcessor.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv VariableProcessor ../../bin
+-- Generating dependencies for CompressBlobs.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/CompressBlobs.o /home/ian/Downloads/tempestextremes-master/src/util/CompressBlobs.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o CompressBlobs  /home/ian/Downloads/tempestextremes-master/src/util/build/CompressBlobs.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv CompressBlobs ../../bin
+-- Generating dependencies for IntegrateDimension.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/IntegrateDimension.o /home/ian/Downloads/tempestextremes-master/src/util/IntegrateDimension.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o IntegrateDimension  /home/ian/Downloads/tempestextremes-master/src/util/build/IntegrateDimension.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv IntegrateDimension ../../bin
+-- Generating dependencies for LagrangianParcelTracker.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/LagrangianParcelTracker.o /home/ian/Downloads/tempestextremes-master/src/util/LagrangianParcelTracker.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o LagrangianParcelTracker  /home/ian/Downloads/tempestextremes-master/src/util/build/LagrangianParcelTracker.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv LagrangianParcelTracker ../../bin
+-- Generating dependencies for QuantileCalculator.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/QuantileCalculator.o /home/ian/Downloads/tempestextremes-master/src/util/QuantileCalculator.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o QuantileCalculator  /home/ian/Downloads/tempestextremes-master/src/util/build/QuantileCalculator.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv QuantileCalculator ../../bin
+-- Generating dependencies for AccumulateERA5Forecast.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/AccumulateERA5Forecast.o /home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp
+/home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp: In function ‘int main(int, char**)’:
+/home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp:181:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  181 |                 system(strSystemString.c_str());
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp:188:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  188 |                 system(strSystemString.c_str());
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ian/Downloads/tempestextremes-master/src/util/AccumulateERA5Forecast.cpp:196:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  196 |                 system(strSystemString.c_str());
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o AccumulateERA5Forecast  /home/ian/Downloads/tempestextremes-master/src/util/build/AccumulateERA5Forecast.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv AccumulateERA5Forecast ../../bin
+-- Generating dependencies for AccumulateData.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/AccumulateData.o /home/ian/Downloads/tempestextremes-master/src/util/AccumulateData.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o AccumulateData  /home/ian/Downloads/tempestextremes-master/src/util/build/AccumulateData.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv AccumulateData ../../bin
+-- Generating dependencies for ShapefileMask.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/ShapefileMask.o /home/ian/Downloads/tempestextremes-master/src/util/ShapefileMask.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o ShapefileMask  /home/ian/Downloads/tempestextremes-master/src/util/build/ShapefileMask.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv ShapefileMask ../../bin
+-- Generating dependencies for AutoCuratorTool.cpp
+mpiCC -fPIC -std=c++11 -I../../src/base -I../../src/netcdf-cxx-4.2 -O3 -DNDEBUG  -DTEMPEST_MPIOMP -I/include -c -o /home/ian/Downloads/tempestextremes-master/src/util/build/AutoCuratorTool.o /home/ian/Downloads/tempestextremes-master/src/util/AutoCuratorTool.cpp
+mpiCC -L../../src/netcdf-cxx-4.2 -L/lib -o AutoCuratorTool  /home/ian/Downloads/tempestextremes-master/src/util/build/AutoCuratorTool.o ../../src/base/libextremesbase.a -lnetcdf_c++ -lnetcdf
+mv AutoCuratorTool ../../bin
+make[1]: Leaving directory '/home/ian/Downloads/tempestextremes-master/src/util'
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ ls
+analysis  aux  bin  doc  Make.defs  Makefile  mk  README.md  remove_depend.sh  src  test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master$ cd test
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  run_spine_ars.sh  sresa1b_ncar_ccsm3-example.nc  test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output3.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "sresa1b_ncar_ccsm3-example.nc"
+....Generating RLL grid data
+......Total calculated grid area: 1.256637061435810e+01 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "output/output3.nc" for writing
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["IVT"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "sresa1b_ncar_ccsm3-example.nc"
+....Generating RLL grid data
+......Total calculated grid area: 1.256637061435810e+01 sr
+......Done
+....Time 0
+......EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/base/Variable.cpp, Line 834) Variable "IVT" not found in input files
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano sresa1b_ncar_ccsm3-example.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh
+Arguments:
+  --in <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["FSHD"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "sresa1b_ncar_ccsm3-example.nc"
+....Generating RLL grid data
+......Total calculated grid area: 0.000000000000000e+00 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "sresa1b_ncar_ccsm3-example.nc" for writing
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh --logdir
+Arguments:
+  --in <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["FSHD"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "sresa1b_ncar_ccsm3-example.nc"
+....Generating RLL grid data
+......Total calculated grid area: 0.000000000000000e+00 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "sresa1b_ncar_ccsm3-example.nc" for writing
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh --logdir
+Arguments:
+  --in <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/sresa1b_ncar_ccsm3-example1.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["FSHD"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "sresa1b_ncar_ccsm3-example.nc"
+....Generating RLL grid data
+......Total calculated grid area: 0.000000000000000e+00 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "output/sresa1b_ncar_ccsm3-example1.nc" for writing
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano output1.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano run_spine_ars.sh
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh --logdir
+Arguments:
+  --in <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output1.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["FSHD"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "sresa1b_ncar_ccsm3-example.nc"
+....Generating RLL grid data
+......Total calculated grid area: 0.000000000000000e+00 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "output/output1.nc" for writing
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ./run_spine_ars.sh --logdir
+Arguments:
+  --in <string> ["sresa1b_ncar_ccsm3-example.nc"] 
+  --in_list <string> [""] 
+  --out <string> ["output/output1.nc"] 
+  --out_list <string> [""] 
+  --var <string> ["FSHD"] 
+  --outvar <string> [""] 
+  --laplaciansize <integer> [10] 
+  --minlaplacian <double> [50000.000000] 
+  --outputlaplacian <bool> [false] 
+  --minabsgrad <double> [0.000000] 
+  --outputabsgrad <bool> [false] 
+  --minabslat <double> [15.000000] 
+  --eqbandmaxlat <double> [15.000000] 
+  --minval <double> [250.000000] 
+  --zonalmeanwt <double> [0.000000] (suggested 0.7)
+  --zonalmaxwt <double> [0.000000] (suggested 0.3)
+  --meridmeanwt <double> [0.000000] (suggested 0.9)
+  --meridmaxwt <double> [0.000000] (suggested 0.1)
+  --minarea <integer> [40] 
+  --spine_width <integer> [-1] 
+  --spine_file <string> [""] 
+  --spine_filelist <string> [""] 
+  --spine_orientdist <integer> [5] 
+  --spine_orientvar <string> [""] 
+  --spine_xsecpoints <integer> [11] 
+  --spine_xsecdist <double> [1.000000] 
+  --spine_tag <bool> [false] 
+  --addtimedim <integer> [0] 
+  --addtimedimunits <string> ["minutes since 2017-02-01 00:00:00"] 
+  --regional <bool> [false] 
+  --lonname <string> ["lon"] 
+  --latname <string> ["lat"] 
+  --logdir <string> [""] 
+------------------------------------------------------------
+Initializing detector
+..Executing detection with 1 threads over 1 files
+..Done
+Performing detection
+..Reporting disabled (if reporting desired, use --logdir)
+..Processing files "sresa1b_ncar_ccsm3-example.nc"
+....Generating RLL grid data
+......Total calculated grid area: 0.000000000000000e+00 sr
+......Done
+....EXCEPTION (/home/ian/Downloads/tempestextremes-master/src/atmrivers/SpineARs.cpp, Line 761) Unable to open NetCDF file "output/output1.nc" for writing
+./run_spine_ars.sh: line 9: ncrcat: command not found
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ ls
+control_shell  import_scripts  output1.nc  run_spine_ars.sh  sresa1b_ncar_ccsm3-example.nc  test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ nano test_echam_spectral.nc
+ian@ian-Latitude-E7440:~/Downloads/tempestextremes-master/test$ 
+
